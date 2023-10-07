@@ -75,7 +75,7 @@ TextureImporter:
       213: 6556868300935796911
     second: Walking_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -92,10 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -134,6 +136,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -145,6 +149,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -157,6 +162,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -676,9 +695,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Walking_0: 3577252072171977909
+      Walking_1: -8287159642771018103
+      Walking_10: 1910701125635488597
+      Walking_11: 4449171930880444311
+      Walking_12: 6229320838642083251
+      Walking_13: -3727337347985793157
+      Walking_14: 1593165366698692481
+      Walking_15: 4877389142272450249
+      Walking_16: 6379357493069541019
+      Walking_17: -5445715743051298346
+      Walking_18: 6808216575251913236
+      Walking_19: 7854338299263221207
+      Walking_2: -899620374153902453
+      Walking_20: 9139993433820242560
+      Walking_21: 3257277762355418487
+      Walking_22: -8603754764918808941
+      Walking_23: 6556868300935796911
+      Walking_3: -1539013491861331121
+      Walking_4: -6138027735779490592
+      Walking_5: -434167352627357646
+      Walking_6: -4973530997829974419
+      Walking_7: 9001918012945569453
+      Walking_8: 2041868273384794170
+      Walking_9: -6439067161863970206
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

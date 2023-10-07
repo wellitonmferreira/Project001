@@ -63,7 +63,7 @@ TextureImporter:
       213: 7267407696378243815
     second: Camada 1_19
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -80,10 +80,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -122,6 +124,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -133,6 +137,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -145,6 +150,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -580,9 +599,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Camada 1_0: -2479915329036904078
+      Camada 1_1: 8611105113739051074
+      Camada 1_10: -4017508975029881127
+      Camada 1_11: 3396561754932506919
+      Camada 1_12: -5212714324952435742
+      Camada 1_13: 1936008193399266655
+      Camada 1_14: -7523870531093378534
+      Camada 1_15: -127119417308899466
+      Camada 1_16: -3052792650379769626
+      Camada 1_17: 3945226040907883801
+      Camada 1_18: -1119493007702630635
+      Camada 1_19: 7267407696378243815
+      Camada 1_2: 7183928540277966566
+      Camada 1_3: 5960454499099672868
+      Camada 1_4: 6307942653677100185
+      Camada 1_5: -1381651175440579632
+      Camada 1_6: -5258201924409042473
+      Camada 1_7: 3033036319446133467
+      Camada 1_8: 6220351125495010527
+      Camada 1_9: 3618503603859501836
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
